@@ -8,6 +8,7 @@
   	<meta name="author" content="@silvestrevivo">
   	<meta keywords="row-eq-height javascript bootstrap">
   	<meta name="generator" content="Bootstrap3.3.7">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
     <title>row-eq-height-javascript</title>
 
@@ -26,14 +27,53 @@
 
   </head>
   <body>
-    <h1>row-eq-height-javascript</h1>
-    <p>this wil be an example about row-eq-height with JavaScript</p>
-    <p><small>It will be user for bootstrap projects</small></p>
+
+    <div class="container">
+      <div class="page-header">
+        <h1>Bootstrap equal-height columns</h1>
+        <p class="lead">This is a demo about a JavaScript-based equal-height columns with Bootstrap's grid system.</p>
+      </div>
+      <h3>Normal row(no equal-height)</h3>
+      <p>Here we <strong>don't use</strong> <code>.row-eq-height</code>.</p>
+
+      <div class="row">
+        <div class="col-sm-4">.row > .col-sm-4</div>
+        <div class="col-sm-4">.row &gt; .col-sm-4<br>this is<br>a much<br>taller<br>column<br>than the others</div>
+        <div class="col-sm-4">.row > .col-sm-4</div>
+      </div>
+
+      <h3>Row with equal-height columns</h3>
+      <p>Here <strong>we use</strong> the custom <code>.row-eq-height</code>, defined with <strong>JavaScript</strong>.</p>
+      <p>All of the columns will stretch vertically to occupy the same height as the tallest column.</p>
+
+      <div class="row row-eq-height">
+        <div class="col-sm-4">.row > .col-sm-4</div>
+        <div class="col-sm-4">.row &gt; .col-sm-4<br>this is<br>a much<br>taller<br>column<br>than the others</div>
+        <div class="col-sm-4">.row > .col-sm-4</div>
+      </div>
+
+      <div class="bs-callout-d bg-danger">
+        <h4>Warning: Browser compatibility</h4>
+        <p>The <code>.row-eq-height</code> <strong>don't use FlexBox</strong>, therefore is compatible with <kbd>Internet Explorer</kbd>.</p>
+      </div>
+
+      <div class="bs-callout-w bg-warning">
+        <h4>Warning: Changes column wrapping behavior</h4>
+        <p>This JavaScript code is optimalized for <code>width > 768px</code>. Feel free to <kbd>resize</kbd> to see effect.</p>
+      </div>
+    </div>
+
+    <p class="text-center">Developed by <a href="http://www.uonsite.nl">@silvestrevivo</a></p>
+
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="js/row-eq-height.js"></script>
 
   </body>
 </html>
