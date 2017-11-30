@@ -1,4 +1,4 @@
-# row-eq-height-javascript for Bootstrap 3
+# .row-eq-height with javascript for Bootstrap 3
 
 This code provides a JavaScript multi browser solution for the _boostrap3_ class
 _.row-eq-height_. Compatible with Google Chrome, FireFox, Opera, Safari and
