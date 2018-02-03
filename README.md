@@ -8,7 +8,7 @@ Internet Explorer(_IE8_). No FlexBox.
 
 ---
 
-![Alt text](https://playground.uonsite.nl/javascript/row-eq-height-javascript/img/row-eq-height-javascript.jpg "javascript-calculator")
+![Alt text](https://playground.uonsite.nl/javascript/row-eq-height-javascript/img/row-eq-height-javascript.jpg "row-eq-height with JavaScript")
 
 
 Demo in https://playground.uonsite.nl/javascript/row-eq-height-javascript/index.html
